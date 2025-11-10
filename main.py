@@ -30,7 +30,7 @@ wait = None
 def get_chrome_options():
     opts = Options()
     # ---- comment the next line when you want to *see* the browser locally ----
-    #opts.add_argument("--headless")
+    opts.add_argument("--headless")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
